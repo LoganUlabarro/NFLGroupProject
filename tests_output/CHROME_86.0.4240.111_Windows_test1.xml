@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="8"
+            failures="9"
+            tests="1">
+
+  <testsuite name="test1"
+    errors="8" failures="9" hostname="" id="" package="test1" skipped="0"
+    tests="1" time="116.4" timestamp="">
+  
+    <testcase name="Check the home page" classname="test1" time="116.4" assertions="10">  <failure message="Timed out while waiting for element &lt;#root&gt; to be present for 5000 milliseconds. - expected &#34;found&#34; but got: &#34;not found&#34; (5167ms)">    at Object.beforeEach (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:4:14)
+    at new Promise (&lt;anonymous&gt;)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.bm-burger-button&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (17418ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:12:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;.titleBar&gt; contains text &#39;Wanted Queries&#39; in 5000ms - expected &#34;contains text &#39;Wanted Queries&#39;&#34; but got: &#34;element could not be located&#34; (12179ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:13:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;#welcomeScreen&gt; contains text &#39;Welcome to &#34;Wanted Queries&#34;.&#39; in 5000ms - expected &#34;contains text &#39;Welcome to &#34;Wanted Queries&#34;.&#39;&#34; but got: &#34;element could not be located&#34; (12204ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:14:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;div[id=&#34;welcomeScreen&#34;]&gt; contains text &#39;Enter Wanted&#39; in 5000ms - expected &#34;contains text &#39;Enter Wanted&#39;&#34; but got: &#34;element could not be located&#34; (12197ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:15:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;div[id=&#34;welcomeScreen&#34;]&gt; contains text &#39;Modify Wanted&#39; in 5000ms - expected &#34;contains text &#39;Modify Wanted&#39;&#34; but got: &#34;element could not be located&#34; (12194ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:16:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;div[id=&#34;welcomeScreen&#34;]&gt; contains text &#39;Cancel Wanted&#39; in 5000ms - expected &#34;contains text &#39;Cancel Wanted&#39;&#34; but got: &#34;element could not be located&#34; (12205ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:17:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;.required&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (12212ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:18:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (12177ms)">    at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+    
+    <error message="Error while running &#34;visible&#34; command: Testing if element [0;33m&lt;.error&gt;[0m is visible in 5000ms - expected [0;32m&#34;is visible&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(12177ms)[0m" type="error"><![CDATA[
+        at Object.Check the home page (c:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .isVisible() command on &lt;.bm-burger-button&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;.titleBar&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;#welcomeScreen&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;div[id=&#34;welcomeScreen&#34;]&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;div[id=&#34;welcomeScreen&#34;]&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;div[id=&#34;welcomeScreen&#34;]&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .isVisible() command on &lt;.required&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .isVisible() command on &lt;.error&gt;:   (Session info: chrome=86.0.4240.111),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); chrome not reachable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;chrome not reachable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.111)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:100,&#34;error&#34;:&#34;An unknown error has occurred – chrome not reachable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  TypeError: browser.setValue(...).waitForElementVisible(...).paused is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.Your test here (c:\Users\Logan\DevMountain\practiceAutomation\tests\testGoogle.js:12:14)
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;input[name=&#34;q&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;2d5f3ad856835690f8234f441bc0b704&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

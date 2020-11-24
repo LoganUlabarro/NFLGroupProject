@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test1"
+    errors="0" failures="1" hostname="" id="" package="test1" skipped="0"
+    tests="1" time="6.907" timestamp="">
+  
+    <testcase name="Test here" classname="test1" time="6.907" assertions="4">
+
+    
+
+      <failure message="Failed [ok]: (The ID (-4) is a positive number.) - expected &#34;true&#34; but got: &#34;false&#34; (0ms)">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\Logan\DevMountain\practiceAutomation\tests\test1.js:24:25)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

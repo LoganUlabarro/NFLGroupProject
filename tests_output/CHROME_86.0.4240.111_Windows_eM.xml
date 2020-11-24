@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="1"
+            tests="1">
+
+  <testsuite name="eM"
+    errors="5" failures="1" hostname="" id="" package="eM" skipped="0"
+    tests="1" time="27.01" timestamp="">
+  
+    <testcase name="Problem 5" classname="eM" time="27.01" assertions="1">  <failure message="Expected element &lt;name=&#34;phoneEntry&#34;]&gt; to have value not equal: &#34;8015551234&#34; - element was not found - expected &#34;not equal &#39;8015551234&#39;&#34; but got: &#34;not present&#34; (20ms)">    at Object.Problem 5 (C:\Users\Logan\DevMountain\practiceAutomation\tests\eM.js:57:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+    
+    <error message="Error while running &#34;element&#34; command: Expected element &lt;name=&#34;phoneEntry&#34;]&gt; to have value not equal: [0;33m&#34;8015551234&#34;[0m - element was not found - expected [0;32m&#34;not equal &#39;8015551234&#39;&#34;[0m but got: [0;31m&#34;not present&#34;[0m[0;90m (20ms)[0m" type="error"><![CDATA[
+        at Object.Problem 5 (C:\Users\Logan\DevMountain\practiceAutomation\tests\eM.js:57:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;[name=&#34;employee4&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;47f30d3c52c4372a109c2e9b84529b85&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;47f30d3c52c4372a109c2e9b84529b85&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;47f30d3c52c4372a109c2e9b84529b85&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;#cancelBtn&gt;: 
+   {&#34;sessionId&#34;:&#34;47f30d3c52c4372a109c2e9b84529b85&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;[name=&#34;employee4&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;47f30d3c52c4372a109c2e9b84529b85&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

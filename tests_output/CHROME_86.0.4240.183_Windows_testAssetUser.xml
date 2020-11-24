@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="testAssetUser"
+    errors="0" failures="0" hostname="" id="" package="testAssetUser" skipped="0"
+    tests="4" time="2.599" timestamp="">
+  
+    <testcase name="It can add an employee" classname="testAssetUser" time="1.112" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="It can edit a new employee" classname="testAssetUser" time="0.5760" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="It can edit an existing employee" classname="testAssetUser" time="0.3460" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="testData" classname="testAssetUser" time="0.5650" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
